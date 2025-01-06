@@ -6,7 +6,7 @@
 #    By: tboulogn <tboulogn@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/01/03 18:16:41 by tboulogn          #+#    #+#              #
-#    Updated: 2025/01/06 10:17:23 by tboulogn         ###   ########.fr        #
+#    Updated: 2025/01/06 13:43:38 by tboulogn         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -18,7 +18,7 @@ SRC_DIR = ./src
 INC_DIR = ./includes 
 
 LIBFT = $(LIBFT_DIR)/libft.a
-PRINTF = $(FT_PRINTF_DIR)/ft_printflibftprintf.a
+PRINTF = $(FT_PRINTF_DIR)/libftprintf.a
 SRCS = $(SRC_DIR)/main.c $(SRC_DIR)/utils.c
 OBJS = $(SRCS:.c=.o)
 

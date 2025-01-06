@@ -6,7 +6,7 @@
 /*   By: tboulogn <tboulogn@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/06 10:25:45 by tboulogn          #+#    #+#             */
-/*   Updated: 2025/01/06 11:36:26 by tboulogn         ###   ########.fr       */
+/*   Updated: 2025/01/06 15:00:29 by tboulogn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,13 +30,13 @@ typedef struct s_stack_node
 	struct s_stack_node	*prev;
 }	t_stack_node;
 
-// Handle errors
+//Errors
 
-// Stack initiation
+//Stack initiation
 
-// Nodes initiation
+//Nodes initiation
 
-// Stack utils
+//Stack utils
 
 //Commands
 
