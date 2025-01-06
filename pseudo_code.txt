@@ -1,0 +1,33 @@
+Declare pointers to two data limked listsm one for stack 'a' and another for 'b'
+	Set both poinbters to NULL to qvoid undefined behaviour and indicate we're starting with empty stack
+
+Handle input count errors> Argu;ents count must be 2 or more, and the second input must nopt be empty
+	if input errors, return errors
+
+Handle both cases of input, whether a variable number of command line arguments, or as a starting
+	if the input of numbers is a string, call SPLIT to split the substrings
+
+Initialize stack 'a' by appending each input number as a node to stack 'a'
+	Handle integer overflow, duplicates, and syntax errors, e.g. input must only contain digits, or '-' '+' substrings
+		If errors found, free stack 'a' and return errors
+	Check of each imput, if it is a long integer
+		if the input is a string, convert it to a long integer
+	Append the nodes to stack 'a'
+
+Check if stack 'a' is sorted
+	If not, implement our sorting algorithm
+		Check for 2 numbers
+			If so, simply swap numbers
+		Check for 3 numbers
+			If so, implement our simple 'sort three' algorithm
+		Check if the stack has more than 3 numbers
+			If so, implement our Turk algorith
+
+Clean up the stack
+
+Basic utils :
+	- Functions to handle errors
+	- Operations
+	- Stack length
+	- Last node
+	- Min and Max nodes
